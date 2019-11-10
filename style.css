@@ -20,6 +20,7 @@ body {
   margin-right: auto;
   background-color: #333333;
   color: #cccccc;
+  padding: 0.5em;
 }
 
 body .pl-c {
@@ -332,7 +333,6 @@ body dd {
 
 body code {
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 12px;
 }
 
 body pre {
@@ -417,7 +417,7 @@ body dl,
 body table,
 body pre {
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 1em;
 }
 
 body hr {
@@ -429,9 +429,12 @@ body hr {
 }
 
 body blockquote {
-  padding: 0 1em;
-  color: #6a737d;
-  border-left: 0.25em solid #dfe2e5;
+  padding: 1em;
+  margin-bottom: 1em;
+  font-style: italic;
+  text-align: center;
+  background-color: rgba(64,64,64);
+  border-radius: 3px;
 }
 
 body blockquote>:first-child {
@@ -439,7 +442,7 @@ body blockquote>:first-child {
 }
 
 body blockquote>:last-child {
-  margin-bottom: 0;
+  margin-bottom: -4px;
 }
 
 body kbd {
@@ -500,7 +503,7 @@ body h6:hover .anchor .octicon-link {
 body h1 {
   padding-bottom: 0.3em;
   font-size: 2em;
-  border-bottom: 1px solid #eaecef;
+  border-bottom: 1px solid;
 }
 
 body h2 {
@@ -611,7 +614,7 @@ body code {
   padding: 0.2em 0.4em;
   margin: 0;
   font-size: 85%;
-  background-color: rgba(27,31,35,0.05);
+  background-color: rgba(64,64,64);
   border-radius: 3px;
 }
 
@@ -640,11 +643,11 @@ body .highlight pre {
 
 body .highlight pre,
 body pre {
-  padding: 16px;
+  padding: 1em;
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f6f8fa;
+  background-color: rgba(64,64,64);
   border-radius: 3px;
 }
 
