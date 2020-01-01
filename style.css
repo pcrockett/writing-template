@@ -589,6 +589,7 @@ body table {
 }
 
 body table th {
+  background-color: rgb(64,64,64);
   font-weight: 600;
 }
 
@@ -599,12 +600,7 @@ body table td {
 }
 
 body table tr {
-  background-color: #fff;
   border-top: 1px solid #c6cbd1;
-}
-
-body table tr:nth-child(2n) {
-  background-color: #f6f8fa;
 }
 
 body img {
