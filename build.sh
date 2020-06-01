@@ -97,7 +97,7 @@ OUTPUT_DOCUMENT="${SCRIPT_DIR}/index.html"
 if is_set "${ARG_CLEAN+x}"; then
 
     if is_set "${ARG_OPEN+x}"; then
-        panic "--clean and --run arguments cannot be used together"
+        panic "--clean and --open arguments cannot be used together"
     fi
 
     if [ -f "${OUTPUT_DOCUMENT}" ]; then
